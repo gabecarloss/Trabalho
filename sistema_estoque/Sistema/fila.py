@@ -9,7 +9,7 @@ class fila:
         if len(self.fila) == 0:
             print("Nenhuma venda registrada")
             return 
-        elif len(self.fila) < 0:                 # NÃO SEI SE É NECESSÁRIO, REVISAR.
+        elif len(self.fila) < 0:
             print("Erro: Fila com tamanho inválido")
             return
         
