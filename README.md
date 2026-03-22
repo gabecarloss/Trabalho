@@ -4,7 +4,13 @@
 
 # Membros: Winicius Bertoncello (1137723) Gabriel Carlos Rigo Agostinho (1136351) Gabriel Pedro Francio (1137759)
 
- Este projeto consiste em um sistema de controle de estoque desenvolvido em Python. O sistema permite o gerenciamento de clientes, produtos e vendas por meio de um menu interativo no terminal. Funciona a partir da prática de dados feitos em arquivos .csv para realizar o cadastro e controlar o estoque, além listas encadeadas, filas e pilhas para o funcionamento do projeto.
+Este projeto consiste em um sistema de controle de estoque desenvolvido em Python. O sistema permite o gerenciamento de clientes, produtos e vendas por meio de um menu interativo no terminal. Funciona a partir da prática de dados feitos em arquivos .csv para realizar o cadastro e controlar o estoque, além listas encadeadas, filas e pilhas para o funcionamento do projeto.
+
+ O sistema permite o gerenciamento completo de:
+
+ Clientes
+ Produtos
+ Vendas
 
 Após executar, será exibido um menu com opções:
 
@@ -22,6 +28,10 @@ Após executar, será exibido um menu com opções:
 
  O cadastro e a listagem todo é feito a partir das listas e inseridos nos arquivos .csv para gerar os logs
 
+open() → manipulação de arquivos
+csv → leitura e escrita
+os.path.exists() → verificação de arquivos
+
  Cada elemento é armazenado em um nó (No) que possui:
  Valor (objeto)
  Referência para o próximo nó
@@ -29,3 +39,4 @@ Após executar, será exibido um menu com opções:
 
 
 # Linguagens usadas: .CSV e python
+
